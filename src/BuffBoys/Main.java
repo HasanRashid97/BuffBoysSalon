@@ -1,4 +1,4 @@
-package HasanSalon;
+package BuffBoys;
 
 public class Main {
     private static Kalender kalender = new Kalender();

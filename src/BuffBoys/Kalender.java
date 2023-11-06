@@ -1,4 +1,4 @@
-package HasanSalon;
+package BuffBoys;
 
 import java.io.*;
 import java.time.LocalDate;

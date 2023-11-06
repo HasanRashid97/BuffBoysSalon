@@ -1,12 +1,12 @@
-package HasanSalon;
+package BuffBoys;
 
 import java.util.Scanner;
 
 public class MenuRunner {
-    private HarryCotterProject.Menu menuStart = new HarryCotterProject.Menu("HOVEDMENU:", punkterStartMenu());
-    private HarryCotterProject.Menu menuEjer = new HarryCotterProject.Menu("EJERMENU:", punkterEjerMenu());
-    private HarryCotterProject.Menu menuPersonale = new HarryCotterProject.Menu("PERSONALEMENU:", punkterPersonaleMenu());
-    private HarryCotterProject.Menu menuRevisor = new HarryCotterProject.Menu("REVISORMENU:", punkterRevisorMenu());
+    private Menu menuStart = new Menu("HOVEDMENU:", punkterStartMenu());
+    private Menu menuEjer = new Menu("EJERMENU:", punkterEjerMenu());
+    private Menu menuPersonale = new Menu("PERSONALEMENU:", punkterPersonaleMenu());
+    private Menu menuRevisor = new Menu("REVISORMENU:", punkterRevisorMenu());
 
     private int personaleType = -1;
     private int valg = -1;

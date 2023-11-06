@@ -1,4 +1,4 @@
-package HasanSalon;
+package BuffBoys;
 
 public class Menu {
     private String menuOverskrift;
